@@ -1,0 +1,65 @@
+.about_me {
+    margin: 40px;
+}
+.informations {
+    margin: 15px auto;
+    /* padding-left: 55px; */
+    width: fit-content;
+    text-align: center;
+}
+.informations div {
+    margin: 15px 0;
+}
+.informations div p {
+    display: inline;
+    margin-left: 3px;
+    
+    font-size: 14px;
+    font-weight: 600;
+}
+.informations div p a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.informations div p a:hover {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.informations .location svg path {
+    stroke: #000000;
+    stroke-width: 1px;
+    /* stroke-linejoin: round; */
+}
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.circle-button svg {
+    vertical-align: middle;
+}
+.circle-button.email {
+    background-color: white;
+    border: 2px solid black;
+}
+.circle-button.github {
+    background-color: black;
+    border: 2px solid black;
+}
+.circle-button.linkedin {
+    background-color: #2d64bc;
+    border: 2px solid #2d64bc;
+}
+.contact_links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contact_links a button {
+    margin: 8px 5px;
+}
